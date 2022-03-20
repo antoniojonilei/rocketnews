@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+
+    --font-titulo: arial, sans-serif;
+    --font-text: 'Poppins', sans-serif;
+}
+
+.rocketnews{
+    width: 400px;
+    margin: 50px 0 80px;
+}
+
+body{  
+    background-color: var(--body-bg-color);   
+    font-family: var(--font-text);
+    display: flex;
+    flex-direction: row;
+    position: fixed;  
+}
+
+
+
+.back-image{
+    max-width: 710px;
+}
+
+main{    
+    margin-left: 3%;
+    width: 750px;   
+}
+
+main h1{
+    margin: 20px 0 10px;
+    font-family: var(--font-titulo);
+    color: var(--title-color);
+    font-size: 1.5em;    
+}
+
+main h2{
+    margin: 10px 0;
+    color: var(--text-color);
+    font-size: 1.05em; 
+}
+
+main p{
+    margin: 10px 0;
+    color: var(--text-color);
+    font-size: 1em;
+}
+
+.texto{    
+    
+    display: flex;
+    flex-direction: column;    
+}
+
+.formulario{
+    margin: 50px 0;
+}
+
+label{
+    margin-top: 50px;
+    color: var(--text-color);
+    font-size: 0.8em;   
+}
+
+form{
+    display: flex;
+    align-items: center; 
+    position: fixed;
+    z-index: 10;  
+}
+
+input{
+    border-style: none;
+    border-left-color: var(--title-color);
+    margin-top: 10px;
+    height: 50px;
+    width: 750px;
+    padding-left: 10px;
+    
+}
+button{
+    background-color: var(--bg-button-color);
+    border-style: none;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;    
+    
+}
+
+.link{
+    margin-top: 110px;
+    display: flex;
+    align-content: center;
+}
+
+a{   
+    text-decoration: none;
+    font-family: var(--font-text); 
+    font-size: medium;   
+    color: var(--bg-button-color);
+    padding-right: 5px;
+    
+}
+
+svg{
+    max-width: 20px;
+}
+
+aside{
+    font-size: small;
+    margin-top: 120px;
+    color: #80808030;
+}
